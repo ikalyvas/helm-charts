@@ -30,7 +30,7 @@ controller:
   #      - "uname"
   #      - "-a"
   disableRememberMe: false
-  numExecutors: 0
+  numExecutors: 2
   # configures the executor mode of the Jenkins node. Possible values are: NORMAL or EXCLUSIVE
   executorMode: "NORMAL"
   # This is ignored if enableRawHtmlMarkupFormatter is true
@@ -45,7 +45,7 @@ controller:
   # If you disable the non-Jenkins identity store and instead use the Jenkins internal one,
   # you should revert controller.adminUser to your preferred admin user:
   adminUser: "admin"
-  # adminPassword: <defaults to random>
+  adminPassword: "1234"
   admin:
     existingSecret: ""
     userKey: jenkins-admin-user
